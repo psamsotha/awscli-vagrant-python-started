@@ -17,9 +17,9 @@ vagrant ssh
 After entering the Vagrant box, you will have a new Pythong virtual environment installed and activated. The virtual environment is named `venv-vm`. You should see `(venv-vm)` at the beginning of your terminal prompt. This is an environment just for the Vagrant box. You will need to install an activate a different virtual environment on your development machine. The reason is that your development machine will not be able to use the same Python interpreter in your development environment as your Vagrant box. PyCharm has this feature in its Pro edition, but many developers will be using the community edition which does not have this feature. To install a virtual environment on your development machine, run the following commands
 
 ```
-python3 -m pip venv venv
+python3 -m venv venv
 source venv/bin/activate
-python -m pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ### Run aws-cli (in Vagrant box)
