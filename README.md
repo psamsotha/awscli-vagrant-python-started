@@ -1,6 +1,6 @@
-# awscli-vagrant
+# awscli-vagrant-python-starter
 
-Vagrant setup to use [aws-cli][cli] version 2 on Ubuntu 18.04 LTS 64-bit box
+Vagrant setup to use [aws-cli][cli] version 2 on Ubuntu 18.04 LTS 64-bit box with Python 3 virtual environment.
 
 ### Install
 
